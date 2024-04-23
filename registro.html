@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"> 
+</head>
+<body>
+    <a href="/index.html">HOME</a>
+    
+    <div>
+        <h1 id="titulo">Cadastre-se no nosso Website</h1>
+        <p id="subtitulo">Coloque suas informações.</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+            <div class="campo">
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" id="Sobrenome" required>
+            </div>
+        </fieldset>
+    <div class="campo">
+        <label for="email">Email</label>
+        <input type="email"  email="email" id="email" required>
+    </div>
+    
+    <div class="campo">
+        <label for="genero">Gênero</label>
+        <label>
+            <input type="radio" name="genero" value="Masculino" required>Masculino
+        </label>
+        <label>
+            <input type="radio" name="genero" value="Feminino">Feminino
+        </label>
+        <label>
+            <input type="radio" name="genero" value="Outros">Outros
+        </label>
+    </div>
+
+    <fieldset class="grupo">
+        <div id="check">
+            
+            <label for="estado">Estado</label>
+            <select id="estado" required>
+                <option selected disabled value="">Escolha seu estado</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Bahia</option>
+            <option>Ceará</option>
+            <option>Distrito Federal</option>
+            <option>Espírito Santo</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rondônia</option>
+            <option>Roraima</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+        </select>
+    </fieldset>
+    </div>
+
+    <button class="botao" type="submit" onsubmit="">Concluir</button>
+
+    </form>
+      </body>
+      </html>
+    
